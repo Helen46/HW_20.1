@@ -8,7 +8,8 @@ class Product(models.Model):
         help_text="Введите наименование продукта",
     )
     description = models.TextField(
-        verbose_name="Описание", help_text="Введите описание продукта"
+        verbose_name="Описание",
+        help_text="Введите описание продукта",
     )
     image = models.ImageField(
         upload_to="product/photo",
@@ -17,11 +18,19 @@ class Product(models.Model):
         verbose_name="Фото",
         help_text="Загрузите фото товара",
     )
-    category = models.CharField(
-        max_length=100, verbose_name="Категория", help_text="Введите категорию продукта"
+    category = models.ForeignKey(
+        'Category',
+        on_delete=models.SET_NULL,
+        verbose_name="Категория",
+        help_text="Введите категорию продукта",
+        null=True,
+        blank=True,
+        related_name='products',
     )
     price = models.FloatField(
-        verbose_name="Цена продукта", help_text="Введите цену продукта"
+        verbose_name="Цена продукта",
+        help_text="Введите цену продукта",
+
     )
     created_at = models.DateField(
         verbose_name="Дата создания (записи в БД)",
@@ -50,7 +59,8 @@ class Category(models.Model):
         help_text="Введите наименование категории",
     )
     description = models.TextField(
-        verbose_name="Описание", help_text="Введите описание категории"
+        verbose_name="Описание",
+        help_text="Введите описание категории",
     )
 
     class Meta:

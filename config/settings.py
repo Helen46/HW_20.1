@@ -51,14 +51,11 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "mushop",
+        "NAME": "myshop",
         "USER": "postgres",
         "PASSWORD": "Qwe123Asd$",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
     }
 }
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {
