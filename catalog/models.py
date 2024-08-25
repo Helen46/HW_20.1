@@ -1,5 +1,7 @@
 from django.db import models
 
+NULLABLE = {'blank': True, 'null': True}
+
 
 class Product(models.Model):
     name = models.CharField(
@@ -13,19 +15,17 @@ class Product(models.Model):
     )
     image = models.ImageField(
         upload_to="product/photo",
-        blank=True,
-        null=True,
         verbose_name="Фото",
         help_text="Загрузите фото товара",
+        **NULLABLE,
     )
     category = models.ForeignKey(
         'Category',
         on_delete=models.SET_NULL,
         verbose_name="Категория",
         help_text="Введите категорию продукта",
-        null=True,
-        blank=True,
         related_name='products',
+        **NULLABLE,
     )
     price = models.FloatField(
         verbose_name="Цена продукта",
@@ -37,10 +37,14 @@ class Product(models.Model):
         help_text="Введите дату создания продукта (записи  в БД) ",
     )
     updated_at = models.DateField(
-        blank=True,
-        null=True,
         verbose_name="Дата последнего изменения (записи в БД)",
         help_text="Введите дату последнего изменения продукта (записи  в БД)",
+        **NULLABLE,
+    )
+    manufactured_at = models.DateField(
+        verbose_name="Дата производства продукта",
+        help_text="Введите дату производства продукта",
+        **NULLABLE,
     )
 
     class Meta:
