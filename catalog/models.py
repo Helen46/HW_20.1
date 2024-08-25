@@ -1,6 +1,6 @@
 from django.db import models
 
-NULLABLE = {'blank': True, 'null': True}
+NULLABLE = {"blank": True, "null": True}
 
 
 class Product(models.Model):
@@ -20,17 +20,16 @@ class Product(models.Model):
         **NULLABLE,
     )
     category = models.ForeignKey(
-        'Category',
+        "Category",
         on_delete=models.SET_NULL,
         verbose_name="Категория",
         help_text="Введите категорию продукта",
-        related_name='products',
+        related_name="products",
         **NULLABLE,
     )
     price = models.FloatField(
         verbose_name="Цена продукта",
         help_text="Введите цену продукта",
-
     )
     created_at = models.DateField(
         verbose_name="Дата создания (записи в БД)",
