@@ -34,7 +34,7 @@ class Product(models.Model):
     )
     created_at = models.DateField(
         verbose_name="Дата создания (записи в БД)",
-        help_text="Введите дату создания продукта (записи  в БД) ",
+        auto_now=True
     )
     updated_at = models.DateField(
         verbose_name="Дата последнего изменения (записи в БД)",
