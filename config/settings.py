@@ -54,6 +54,8 @@ DATABASES = {
         "NAME": "myshop",
         "USER": "postgres",
         "PASSWORD": "Qwe123Asd$",
+        "HOST": "127.0.0.1",
+        "PORT": "5432"
     }
 }
 
