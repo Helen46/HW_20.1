@@ -31,14 +31,13 @@ class Product(models.Model):
         verbose_name="Цена продукта",
         help_text="Введите цену продукта",
     )
-    created_at = models.DateField(
+    created_at = models.DateTimeField(
         verbose_name="Дата создания (записи в БД)",
         auto_now=True
     )
-    updated_at = models.DateField(
+    updated_at = models.DateTimeField(
         verbose_name="Дата последнего изменения (записи в БД)",
-        help_text="Введите дату последнего изменения продукта (записи  в БД)",
-        **NULLABLE,
+        auto_now=True
     )
 
     class Meta:
