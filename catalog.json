@@ -1,96 +1,96 @@
 [
 {
     "model": "catalog.product",
-    "pk": 3,
+    "pk": 1,
     "fields": {
-        "name": "бананы",
+        "name": "POCO X3",
         "description": "",
         "image": "",
         "category": 1,
-        "price": 129.0,
-        "created_at": "2024-08-25",
-        "updated_at": null
+        "price": 29990.0,
+        "created_at": "2024-08-28T07:43:52.360Z",
+        "updated_at": "2024-08-28T07:43:52.360Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+        "name": "Холодильник GORENJE RK14FPW4, белый",
+        "description": "",
+        "image": "",
+        "category": 2,
+        "price": 28030.0,
+        "created_at": "2024-08-28T07:52:02.374Z",
+        "updated_at": "2024-08-28T07:52:02.374Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+        "name": "Плита электрическая DeLuxe 5004.12, белый",
+        "description": "",
+        "image": "",
+        "category": 2,
+        "price": 17573.0,
+        "created_at": "2024-08-28T07:54:12.391Z",
+        "updated_at": "2024-08-28T07:54:12.391Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 4,
     "fields": {
-        "name": "яблоки",
+        "name": "Телевизор Haier 32 Smart TV M1",
         "description": "",
         "image": "",
-        "category": 1,
-        "price": 99.0,
-        "created_at": "2024-08-25",
-        "updated_at": null
+        "category": 2,
+        "price": 14990.0,
+        "created_at": "2024-08-28T07:55:40.493Z",
+        "updated_at": "2024-08-28T07:55:40.493Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 5,
     "fields": {
-        "name": "груши",
+        "name": "Huawei Pura 70 12/256Gb, ADY-LX9, черный",
         "description": "",
         "image": "",
         "category": 1,
-        "price": 169.0,
-        "created_at": "2024-08-25",
-        "updated_at": null
+        "price": 59990.0,
+        "created_at": "2024-08-28T07:57:23.240Z",
+        "updated_at": "2024-08-28T07:57:23.240Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 6,
     "fields": {
-        "name": "картофель",
+        "name": "Apple iPhone 15 Pro 256Gb, A3104, белый титан",
         "description": "",
         "image": "",
-        "category": 2,
-        "price": 39.0,
-        "created_at": "2024-08-25",
-        "updated_at": null
-    }
-},
-{
-    "model": "catalog.product",
-    "pk": 7,
-    "fields": {
-        "name": "лук",
-        "description": "",
-        "image": "",
-        "category": 2,
-        "price": 49.0,
-        "created_at": "2024-08-25",
-        "updated_at": null
-    }
-},
-{
-    "model": "catalog.product",
-    "pk": 8,
-    "fields": {
-        "name": "морковь",
-        "description": "",
-        "image": "",
-        "category": 2,
-        "price": 56.0,
-        "created_at": "2024-08-25",
-        "updated_at": null
+        "category": 1,
+        "price": 124190.0,
+        "created_at": "2024-08-28T07:57:57.549Z",
+        "updated_at": "2024-08-28T07:57:57.549Z"
     }
 },
 {
     "model": "catalog.category",
     "pk": 1,
     "fields": {
-        "name": "фрукты",
-        "description": "сочные съедобные плоды дерева или кустарника, а также ягоды"
+        "name": "смартфон",
+        "description": " мобильный телефон, с сенсорным экраном, дополненный функциональностью умного устройства, фактически всегда оснащён камерой, и также фронтальной камерой, предназначенной для осуществления видеозвонков, видеоконференций и фотографирования селфи."
     }
 },
 {
     "model": "catalog.category",
     "pk": 2,
     "fields": {
-        "name": "овощи",
-        "description": "растения, съедобная часть некоторых растений, а также всякая твёрдая растительная пища, за исключением фруктов, круп, грибов, орехов и съедобных водорослей"
+        "name": "крупная бытовая техника",
+        "description": "крупные машины, используемые для повседневных хозяйственных задач, таких как приготовление пищи, стирка или сохранение продуктов питания, и которые, в отличие от сантехники, используют для своей работы электричество или топливо"
     }
 }
 ]
