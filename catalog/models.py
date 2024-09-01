@@ -14,7 +14,7 @@ class Product(models.Model):
         help_text="Введите описание продукта",
     )
     image = models.ImageField(
-        upload_to="product/photo",
+        upload_to="products/photo",
         verbose_name="Фото",
         help_text="Загрузите фото товара",
         **NULLABLE,

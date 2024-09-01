@@ -76,7 +76,7 @@ class Migration(migrations.Migration):
                         blank=True,
                         help_text="Загрузите фото товара",
                         null=True,
-                        upload_to="product/photo",
+                        upload_to="products/photo",
                         verbose_name="Фото",
                     ),
                 ),

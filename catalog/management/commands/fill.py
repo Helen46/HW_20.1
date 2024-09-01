@@ -23,7 +23,7 @@ class Command(BaseCommand):
     def json_read_products():
         with open(CATALOG_DATA, encoding='utf-8') as file:
             catalog = json.load(file)
-            return [item for item in catalog if item["model"] == "catalog.product"]
+            return [item for item in catalog if item["model"] == "catalog.products"]
 
     def handle(self, *args, **options):
         product_for_create = []

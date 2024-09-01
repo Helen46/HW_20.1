@@ -3,78 +3,78 @@
     "model": "catalog.product",
     "pk": 1,
     "fields": {
-        "name": "POCO X3",
+        "name": "POCO X6 Pro, черный",
         "description": "",
         "image": "",
         "category": 1,
-        "price": 29990.0,
-        "created_at": "2024-08-28T07:43:52.360Z",
-        "updated_at": "2024-08-28T07:43:52.360Z"
+        "price": 40990.0,
+        "created_at": "2024-08-31T20:22:47.258Z",
+        "updated_at": "2024-08-31T20:22:47.258Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 2,
     "fields": {
-        "name": "Холодильник GORENJE RK14FPW4, белый",
+        "name": "Huawei Pura 70 12/256Gb, ADY-LX9, черный",
         "description": "",
         "image": "",
-        "category": 2,
-        "price": 28030.0,
-        "created_at": "2024-08-28T07:52:02.374Z",
-        "updated_at": "2024-08-28T07:52:02.374Z"
+        "category": 1,
+        "price": 59990.0,
+        "created_at": "2024-08-31T20:22:54.521Z",
+        "updated_at": "2024-08-31T20:22:54.521Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 3,
     "fields": {
-        "name": "Плита электрическая DeLuxe 5004.12, белый",
+        "name": "Apple iPhone 15 Pro 256Gb, A3104, белый титан",
         "description": "",
         "image": "",
-        "category": 2,
-        "price": 17573.0,
-        "created_at": "2024-08-28T07:54:12.391Z",
-        "updated_at": "2024-08-28T07:54:12.391Z"
+        "category": 1,
+        "price": 124190.0,
+        "created_at": "2024-08-31T20:23:02.194Z",
+        "updated_at": "2024-08-31T20:23:02.194Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 4,
     "fields": {
-        "name": "Телевизор Haier 32 Smart TV M1",
+        "name": "Холодильник GORENJE RK14FPW4, белый",
         "description": "",
         "image": "",
         "category": 2,
-        "price": 14990.0,
-        "created_at": "2024-08-28T07:55:40.493Z",
-        "updated_at": "2024-08-28T07:55:40.493Z"
+        "price": 28030.0,
+        "created_at": "2024-08-31T20:23:11.741Z",
+        "updated_at": "2024-08-31T20:23:11.741Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 5,
     "fields": {
-        "name": "Huawei Pura 70 12/256Gb, ADY-LX9, черный",
+        "name": "Плита электрическая DeLuxe 5004.12, белый",
         "description": "",
         "image": "",
-        "category": 1,
-        "price": 59990.0,
-        "created_at": "2024-08-28T07:57:23.240Z",
-        "updated_at": "2024-08-28T07:57:23.240Z"
+        "category": 2,
+        "price": 17573.0,
+        "created_at": "2024-08-31T20:23:18.421Z",
+        "updated_at": "2024-08-31T20:23:18.421Z"
     }
 },
 {
     "model": "catalog.product",
     "pk": 6,
     "fields": {
-        "name": "Apple iPhone 15 Pro 256Gb, A3104, белый титан",
+        "name": "Телевизор Haier 32 Smart TV M1",
         "description": "",
         "image": "",
-        "category": 1,
-        "price": 124190.0,
-        "created_at": "2024-08-28T07:57:57.549Z",
-        "updated_at": "2024-08-28T07:57:57.549Z"
+        "category": 2,
+        "price": 14990.0,
+        "created_at": "2024-08-31T20:23:27.610Z",
+        "updated_at": "2024-08-31T20:23:27.610Z"
     }
 },
 {
